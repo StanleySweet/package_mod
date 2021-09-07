@@ -10,7 +10,7 @@ This mod is used to package other mods for 0 A.D. It contains the skeletons from
 - Type something like:
 
 ```lang=sh
-$ pyrogenesis -mod=package_mod -mod={yourmod} -archivebuild="..\data\mods\{yourmod}" -archivebuild-output="{yourmod}.pyromod" -archivebuild-compress
+$ pyrogenesis -mod=package_mod -archivebuild="..\data\mods\{yourmod}" -archivebuild-output="{yourmod}.pyromod" -archivebuild-compress
 ```
 
 - Get your mod from binaries/system.
